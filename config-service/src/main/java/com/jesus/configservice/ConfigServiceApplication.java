@@ -1,4 +1,4 @@
-package com.tutorial.configservice;
+package com.jesus.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
