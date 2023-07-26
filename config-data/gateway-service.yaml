@@ -21,11 +21,11 @@ spring:
           uri: lb://user-service
           predicates:
             - Path=/user/**
-        - id: laptop-service
-          uri: lb://laptop-service
-          predicates:
-            - Path=/laptop/**
         - id: pc-service
           uri: lb://pc-service
           predicates:
             - Path=/pc/**
+        - id: laptop-service
+          uri: lb://laptop-service
+          predicates:
+            - Path=/laptop/**
